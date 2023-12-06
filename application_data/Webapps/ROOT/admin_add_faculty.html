@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>add faculty</title>
+<link href="studentleft style.css" REL="STYLESHEET">
+<style>
+                        th, td {
+                                padding: 8px;
+                                text-align: left;
+                              }
+                    </style>
+	</head>
+	<body>
+	
+             <header> 
+                            <H1><img src="HOMEPAGE LOGO1.jpg" WIDTH="1340" HIGHT="80%" scroll="0"></h1>
+                         </header>
+
+
+<UL>
+    <LI><a href="admin_home.jsp"  >Home</a></li>
+                            <LI><a href="admin_add_hod.html"  >Add Hod</a></li>
+                            <li><a href="admin_update_hod.html"  >Update Hod</a></li>
+                            <li><a href="admin_add_faculty.html" >Add Faculty</a></li>
+                            
+                <li><a href="admin_update_faculty.html"  >Update Faculty</a></li>
+                <li><a href="admin_year_subject.jsp"  >Add Subject</a></li>
+                <li><a href="logout.jsp" >log Out</a></li>
+				
+			</UL><br><br><br>
+			<center>
+			
+            <h2>Add Faculty</h2>
+		
+			
+            <form action="faculty_registration_java.jsp" method="post">
+			 <table  width="auto" >
+                  <tr><th>            Faculty Name:     </th><td>         <input type="text" name="fname" placeholder="Faculty Name"  required=""/></td></tr>
+               <tr><th>           Faculty Id:        </th><td>      	<input type="text" name="fid" placeholder="Faculty Id" required=""></td></tr>
+                <tr><th>             Email:          </th><td>            <input type="email" name="email" placeholder="E-Mail" required="" ><BR></td></tr>
+                 <tr><th>              Password:     </th><td>               <input type="password" name="pass" placeholder="Password" required="" ><BR></td></tr>
+	    <tr><th>  	password Confirmation:       </th><td>    	<input type="password" name="cpass" placeholder="Password Confirmation" required="" ><BR></td></tr>
+                <tr><th>          Mobile Number :     </th><td>             <input type="text" name="mob" placeholder="Mobile Number" required="" ><BR></td></tr>
+                                       
+                                       
+                    <tr><th>                          Department :   </th><td>   
+                                        <select name="dept" style="width:95%; padding: 10px ;" required="">
+                                        <option>--Select--</option>
+                                        <option>Computer Technology</option>
+                                        <option>Information Technology</option>
+                                        <option>BSC</option>
+                                        </select></td></tr>
+                                        <BR>
+                     <tr><th>                         Subject:  </th><td>   
+                                        <input type="checkbox" name="subject" value="m7"> m7
+                                         <input type="checkbox" name="subject" value="m8"> m8
+                                          <input type="checkbox" name="subject" value="e8"> e8 
+                         </td></tr></table>		  <br>
+					<input type="submit" value="Register">
+					
+				</form>
+			</center>
+			 
+
+
+
+
+
+
+
+
+<br><br><br><br><footer>
+                    <table background="footer.jpg"height="80" width="1340" >
+                            <tr>
+                                <td>
+                                    <center>   
+                                        <big>
+                                            <font color="white">Developer of this page is : <b><i><big>vinith singareddy</big></i></b> <b><i><small>---</b></i></small>
+                                            </font>
+                                        </big>
+                                    </center>
+                                </td>
+                            </tr>
+                    </table>
+            </footer>
+			
+            
+            
+            
+	</body>
+</html>

@@ -1,0 +1,32 @@
+#bishop{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: url(bishop.jpg);
+    background-size: cover;
+    
+}
+#principal{
+     border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: url(principal.jpg);
+    background-size: cover;
+}
+.mytable th{
+    color:white;
+
+}
+.mytable td{
+    color:white;
+    
+
+}
+.mytable td,
+.mytable th{
+    padding: 10px;
+    
+}
+.mytable{
+    text-align: left;
+}
