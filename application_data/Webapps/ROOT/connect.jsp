@@ -5,7 +5,7 @@
  	try {
      	
 	  	Class.forName("com.mysql.jdbc.Driver");	
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/attendence_project","root","root");
+		connection = DriverManager.getConnection("jdbc:mysql://[CLOUD_SQL_INSTANCE_CONNECTION_NAME]/attendence_project","root","root");
       	String sql="";
 
 	}
